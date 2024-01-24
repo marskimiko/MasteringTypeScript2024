@@ -1,5 +1,12 @@
 let movieTitle: string = "Amadeus";
 movieTitle = "Arrival";
-
-// you cant do this!!!
 // movieTitle = 9;
+
+
+let numCatLives: number = 9;
+numCatLives += 1;
+// numCatLives = "Zero"
+
+let gameOver: boolean = false;
+gameOver = true;
+// gameOver = "true";
