@@ -27,3 +27,18 @@ thing: 1;
 thing = false;
 thing()
 thing.toUpperCase()
+
+// delayed initialization & implicit any
+const movies = ["Arrival", "The Thing", "Aliens", "Amadeus"]
+// in this situation typescript infers foundMovie type as 'any'
+// let foundMovie;
+let foundMovie: string;
+
+for (let movie of movies) {
+  if (movie === "Amadeus") {
+    foundMovie = "Amadeus";
+  }
+}
+// foundMovie();
+// foundMovie = 1;
+// foundMovie.asdasfasfk();
