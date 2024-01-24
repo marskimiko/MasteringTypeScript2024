@@ -1,9 +1,9 @@
 var movieTitle = "Amadeus";
 movieTitle = "Arrival";
-// movieTitle = 9;
+movieTitle = 9;
 var numCatLives = 9;
 numCatLives += 1;
-// numCatLives = "Zero"
+numCatLives = "Zero";
 var gameOver = false;
 gameOver = true;
-// gameOver = "true";
+gameOver = "true";
