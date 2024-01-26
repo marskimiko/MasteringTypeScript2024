@@ -1,25 +1,25 @@
-let movieTitle: string = "Amadeus";
-movieTitle = "Arrival";
-movieTitle = 9;
+// let movieTitle: string = "Amadeus";
+// movieTitle = "Arrival";
+// movieTitle = 9;
 
 
-let numCatLives: number = 9;
-numCatLives += 1;
-numCatLives = "Zero"
+// let numCatLives: number = 9;
+// numCatLives += 1;
+// numCatLives = "Zero"
 
-let gameOver: boolean = false;
-gameOver = true;
-gameOver = "true";
+// let gameOver: boolean = false;
+// gameOver = true;
+// gameOver = "true";
 
 
 // Type Inference
 let tvShow = "Greys Anatomy";
 tvShow = "The Other Two";
-tvShow = false;
+// tvShow = false;
 
 let isFunny = false;
 isFunny = true;
-isFunny = "asd";
+// isFunny = "asd";
 
 // the any type
 let thing: any = "hello";
